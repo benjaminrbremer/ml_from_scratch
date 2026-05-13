@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_from_scratch"
+description = "Implementation of several common ML models from scratch"
+version = 0.0.0
+dynamic = ["version"]
+readme = "README.md"
+authors = [
+    {name = "Benjamin Bremer", email = benjaminrbremer@gmail.com}
+]
