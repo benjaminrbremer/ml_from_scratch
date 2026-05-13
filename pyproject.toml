@@ -5,9 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ml_from_scratch"
 description = "Implementation of several common ML models from scratch"
-version = 0.0.0
-dynamic = ["version"]
+version = "0.0.1"
 readme = "README.md"
 authors = [
-    {name = "Benjamin Bremer", email = benjaminrbremer@gmail.com}
+    {name = "Benjamin Bremer", email = "benjaminrbremer@gmail.com"}
 ]
