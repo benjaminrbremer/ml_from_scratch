@@ -10,3 +10,9 @@ readme = "README.md"
 authors = [
     {name = "Benjamin Bremer", email = "benjaminrbremer@gmail.com"}
 ]
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+docs = ["matplotlib>=3.7"]
