@@ -31,7 +31,7 @@ features (see the companion markdown's section on extensions).
 
 import numpy as np
 
-import ml_from_scratch.classification.loss as loss
+import ml_from_scratch.classification.logistic_regression.loss as loss
 
 LOSS_FUNCTIONS = ["BCE", "Hinge", "MSE"]
 
